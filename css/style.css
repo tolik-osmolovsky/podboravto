@@ -650,31 +650,6 @@ img { max-width: 100%; }
     box-shadow: 0 8px 24px rgba(34, 197, 94, .45);
 }
 
-/* ---------- images ---------- */
-
-.gallery {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 16px;
-    margin-top: 32px;
-}
-
-.gallery img {
-    display: block;
-    width: 100%;
-    height: 150px;
-    object-fit: cover;
-    border-radius: var(--radius);
-    border: 1px solid var(--line);
-    filter: saturate(.9);
-    transition: filter .25s, transform .25s;
-}
-
-.gallery img:hover {
-    filter: saturate(1.1);
-    transform: translateY(-3px);
-}
-
 /* ---------- about / text blocks (SEO) ---------- */
 
 .eyebrow {
@@ -867,8 +842,6 @@ img { max-width: 100%; }
     .steps { grid-template-columns: 1fr; }
     .contacts { grid-template-columns: 1fr; }
     .about-grid { grid-template-columns: 1fr; }
-    .gallery { grid-template-columns: 1fr 1fr; }
-    .gallery img { height: 120px; }
     .text-after { padding: 16px 18px; }
     .cta { padding: 48px 0; }
     .cta h2 { font-size: 25px; }
